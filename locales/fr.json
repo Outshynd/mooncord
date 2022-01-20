@@ -5,6 +5,20 @@
         }
     },
     "embeds": {
+        "systeminfo_discord": {
+            "title": "Information Discord Client"
+        },
+        "systeminfo_moonraker_client": {
+            "title": "Information Moonraker Client"
+        },
+        "systeminfo_moonraker": {
+            "title": "Information Moonraker",
+            "description": "**Avertissements ⚠:** \n ```\n${server_info.warnings}```"
+        },
+        "systeminfo_klipper": {
+            "title": "Information Klipper",
+            "description": "**Avertissements ⚠:** \n ```\n${state.configfile.warnings}```"
+        },
         "systeminfo_cpu": {
             "title": "Information CPU"
         },
@@ -151,7 +165,12 @@
             "klipper_load": "Chargement de Klipper",
             "distribution": "Distribution",
             "distribution_like": "Distribution Like",
-            "codename": "Nom de code"
+            "codename": "Nom de code",
+            "ping": "Ping",
+            "client_id": "Client ID",
+            "event_count": "Événements",
+            "ready_since": "Prêt depuis",
+            "active_connections": "Connexions actives"
         }
     },
     "messages": {
@@ -300,6 +319,22 @@
                 {
                     "label": "Système",
                     "value": "system"
+                },
+                {
+                    "label": "Moonraker",
+                    "value": "moonraker"
+                },
+                {
+                    "label": "Klipper",
+                    "value": "klipper"
+                },
+                {
+                    "label": "Discord Client",
+                    "value": "discord"
+                },
+                {
+                    "label": "Moonraker Client",
+                    "value": "moonraker_client"
                 },
                 {
                     "label": "Mise à jour",

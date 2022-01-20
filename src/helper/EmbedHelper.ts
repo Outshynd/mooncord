@@ -226,6 +226,10 @@ export class EmbedHelper {
             }
         }
 
+        if(cacheParser.constructor.name === 'Array') {
+            cacheParser = cacheParser.join('\\n')
+        }
+
         cacheParser = String(cacheParser)
 
         return {
